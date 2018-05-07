@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppProject1</string>
+    <string name="heading">Max\'s Dog Walking</string>
+    <string name="description">Hi! I\'m Max. I\'m available for buddy walks on
+        the Iron Horse Trail. Call today!</string>
+    <string name="hours">Hours: M-F 8:00AM-5:30PM</string>
+    <string name="contact">Phone: 925-555-0000</string>
+</resources>

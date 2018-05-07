@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimenPaddingHeader">16dp</dimen>
+    <dimen name="dimenPaddingBottomTop">8dp</dimen>
+    <dimen name="dimenPaddingLeftRight">16dp</dimen>
+    <dimen name="dimenHeaderTextSize">34sp</dimen>
+    <dimen name="dimenInfoTextSize">20sp</dimen>
+</resources>

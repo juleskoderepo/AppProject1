@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.appproject1.MainActivity">
+
+    <TextView
+        android:id="@+id/text_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:gravity="center"
+        android:padding="@dimen/dimenPaddingHeader"
+        android:text="@string/heading"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/dimenHeaderTextSize"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/max_trail"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorBackground"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dimenPaddingBottomTop"
+                android:paddingLeft="@dimen/dimenPaddingLeftRight"
+                android:paddingRight="@dimen/dimenPaddingLeftRight"
+                android:paddingTop="@dimen/dimenPaddingBottomTop"
+                android:text="@string/description"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/dimenInfoTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_hours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dimenPaddingBottomTop"
+                android:paddingLeft="@dimen/dimenPaddingLeftRight"
+                android:paddingRight="@dimen/dimenPaddingLeftRight"
+                android:text="@string/hours"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/dimenInfoTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dimenPaddingBottomTop"
+                android:paddingLeft="@dimen/dimenPaddingLeftRight"
+                android:paddingRight="@dimen/dimenPaddingLeftRight"
+                android:text="@string/contact"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/dimenInfoTextSize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
